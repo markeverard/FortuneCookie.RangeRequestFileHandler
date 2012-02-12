@@ -1,0 +1,20 @@
+<configuration>
+	<location path="PageFiles">	
+		<system.webServer>
+			<handlers>
+				<add name="m4vhandler" path="*.m4v" verb="*" type="FortuneCookie.RangeRequestFileHandler.RangeRequestFileHandler, FortuneCookie.RangeRequestFileHandler" />
+				<add name="mp4handler" path="*.mp4" verb="*" type="FortuneCookie.RangeRequestFileHandler.RangeRequestFileHandler, FortuneCookie.RangeRequestFileHandler" />
+				<add name="movhandler" path="*.mov" verb="*" type="FortuneCookie.RangeRequestFileHandler.RangeRequestFileHandler, FortuneCookie.RangeRequestFileHandler" />
+			</handlers>
+		</system.webServer>
+    </location>
+	<location path="Global">
+		<system.webServer>
+			<handlers>
+				<add name="m4vhandler" path="*.m4v" verb="*" type="FortuneCookie.RangeRequestFileHandler.RangeRequestFileHandler, FortuneCookie.RangeRequestFileHandler" />
+				<add name="mp4handler" path="*.mp4" verb="*" type="FortuneCookie.RangeRequestFileHandler.RangeRequestFileHandler, FortuneCookie.RangeRequestFileHandler" />
+				<add name="movhandler" path="*.mov" verb="*" type="FortuneCookie.RangeRequestFileHandler.RangeRequestFileHandler, FortuneCookie.RangeRequestFileHandler" />
+			</handlers>
+		</system.webServer>
+    </location>
+</configuration>
